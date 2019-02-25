@@ -16,6 +16,7 @@ namespace RestaurantRater.WebMVC.Models
 		public class RestaurantDBContext : DbContext
 		{
 			public DbSet<Restaurant> Restaurants { get; set; }
+
 		}
 	}
 }
